@@ -1,64 +1,111 @@
-
-html {
-
-  position: relative;
-
-  min-height: 100%
+nav {
+  font-family: 'Ariel';
+  color: rgb(20, 102, 150);
 }
 
 body {
-
-  margin-bottom: 150px;
-
-
-font-family: Arial, Helvetica, sans-serif;
-
-background-color: #ededed;
-
+  font-family: 'Ariel';
+  font-size: 1.1em;
+  background-color:#eee;
 }
 
-/* Navbar  ----*/
-.navbar-custom {
-  background-color: rgb(222, 224, 217);
+.navbar-light .navbar-brand {
+  color:  white(218, 15, 15);
 }
 
-#logo {
-  height: 60px;
-  padding-top: 20px;
-  padding-bottom: 5px;
-
-  margin-left: 70px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
-  font-size: 24px;
-  font-weight: bold;
-  color: rgb(139, 10, 10);
-
-  background: #4aaaa5;
-
+.navbar {
+  background-color: white;
+  width: 100%;
+  padding: 0;
 }
 
-#logo:hover {
-  opacity: 0.7;
-}
-
-.navbar-right-custom{
-  padding-top: 60px;
-  padding-right: 20px;
-
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter
-}
 .navbar-brand {
-  font-family:fantasy;
-  color:rgb(139, 10, 10);
+  font-family: 'Ariel';
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(20, 102, 150);
+  background-color: rgb(150, 141, 20);
+  
+  padding: 10px;
+  margin-left: 5%;
+}
+
+.navbar-collapse {
+  position: absolute;
+  right: 5%;
+  font-size: small;
+}
+.button {
+  color: rgb(20, 102, 150);
+}
+.nav-link {
+  font-family: 'Ariel';
+  font-weight: bolder;
+  color: rgb(20, 102, 150);
+}
+
+.content {
+  width:85%;
+  margin: 40px auto;
+  padding:1em;
+}
+  
 
 }
 
-/* Navebar End---*/
+.text-left {
+  text-align: left;
+  color: rgb(20, 102, 150);
+  font-family: 'Ariel';
+  font-weight: bolder;
+}
 
+.text-center {
+  color: rgb(20, 102, 150);
+  font-family: 'Ariel';
+  font-weight: bolder;
+}
 
-.description-header{
-font-family:fantasy;
+p:not(.intro) {
+  text-align: justify;
+  color: #7e7e7e;
+}
 
+.thumbnail {
+  width:50%;
+}
+
+.main-image {      
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    float: left;
+}
+
+.col-md-8 {
+  background-color: white;
+}
+
+.col-sm-12,.col-md-4 {
+  background-color: white;
+}
+
+div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+  width: 100%;
+}
+
+div.col-sm-12.col-md-12 p {
+  color: black;
+  font-size: medium;
+}
+
+.panel-body:hover {
+  border-color: blueviolet;
+  border size: 50px;
+}
+
+@include media-breakpoint-down(md) {
+  .col-md-8 {
+    display: block;
+  }
 }

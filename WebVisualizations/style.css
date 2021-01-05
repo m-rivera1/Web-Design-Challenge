@@ -1,7 +1,4 @@
-nav {
-  font-family: 'Ariel';
-  color: rgb(20, 102, 150);
-}
+
 
 body {
   font-family: 'Ariel';
@@ -17,40 +14,41 @@ body {
   background-color: white;
   width: 100%;
   padding: 0;
+  font-family: 'Ariel';
+  color: rgb(20, 102, 150);
+  }
+.dropdown-item {
+  font-family: 'Ariel';
+  color: rgb(20, 102, 150);
+}
+
+.sr-only {
+  font-family: 'Ariel';
+  color: rgb(20, 102, 150);
 }
 
 .navbar-brand {
   font-family: 'Ariel';
   font-size: 25px;
   font-weight: bolder;
-  color: rgb(20, 102, 150);
-  background-color: rgb(150, 141, 20);
-  
+  color: rgb(20, 102, 150)!important;
   padding: 10px;
   margin-left: 5%;
 }
+.buttons {
+  font-size: 25px;
 
-.navbar-collapse {
-  position: absolute;
-  right: 5%;
-  font-size: small;
-}
-.button {
-  color: rgb(20, 102, 150);
 }
 .nav-link {
   font-family: 'Ariel';
-  font-weight: bolder;
-  color: rgb(20, 102, 150);
+  color: rgb(20, 102, 150)!important;
+  font-size: 16px;;
 }
 
 .content {
   width:85%;
   margin: 40px auto;
   padding:1em;
-}
-  
-
 }
 
 .text-left {
@@ -82,6 +80,7 @@ p:not(.intro) {
     float: left;
 }
 
+
 .col-md-8 {
   background-color: white;
 }
@@ -97,15 +96,4 @@ div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
 div.col-sm-12.col-md-12 p {
   color: black;
   font-size: medium;
-}
-
-.panel-body:hover {
-  border-color: blueviolet;
-  border size: 50px;
-}
-
-@include media-breakpoint-down(md) {
-  .col-md-8 {
-    display: block;
-  }
 }

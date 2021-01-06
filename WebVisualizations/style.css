@@ -55,17 +55,6 @@ body {
   font-weight: bolder;
 }
 
-.text-center {
-  color: rgb(20, 102, 150);
-  font-family: 'Ariel';
-  font-weight: bolder;
-}
-
-p:not(.intro) {
-  text-align: justify;
-  color: #7e7e7e;
-}
-
 .thumbnail {
   width:50%;
 }
@@ -88,9 +77,4 @@ p:not(.intro) {
 
 div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
   width: 100%;
-}
-
-div.col-sm-12.col-md-12 p {
-  color: black;
-  font-size: medium;
 }
